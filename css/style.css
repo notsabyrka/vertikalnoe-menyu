@@ -194,7 +194,15 @@ svg * {
 @font-face {
   font-family: "Inter";
   src: url("../fonts/InterMedium.woff2") format("woff2");
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  background-color: #1e1e1e;
 }
